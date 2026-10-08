@@ -10,14 +10,14 @@ function Pousada() {
       valorDiaria = 100;
     } else if (dias <= 10) valorDiaria = 90;
     else if (dias >= 11) valorDiaria = 80;
-    
+
     let totalBruto = valorDiaria * dias;
-    let descontos = totalBruto * 25/100
-    let multa = 150
-    let totaPagar = totalBruto - descontos + multa
-    setConta("Vai pagar: R$" + totaPagar)
-}
-    
+    let descontos = (totalBruto * 25) / 100;
+    let multa = 150;
+    let totaPagar = totalBruto - descontos + multa;
+    setConta("Vai pagar: R$" + totaPagar);
+  }
+
   return (
     <div className="pousada">
       <h2>Pousada, oba!!</h2>
