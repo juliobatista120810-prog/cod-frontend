@@ -6,16 +6,15 @@ function Peso() {
   function calculoImc() {
     let altura = Number(prompt("Qual é a sua altura em metros, ex: 1.70"));
     let genero = prompt(" Qual o seu genero, Homem ou Mulher? ");
-    let peso
+    let peso;
 
     if (genero == "mulher") {
-    peso = 62.1 * altura - 44.7
-    }else if(genero == "homem") {
-        peso = 72.7 * altura - 58
+      peso = 62.1 * altura - 44.7;
+    } else if (genero == "homem") {
+      peso = 72.7 * altura - 58;
     }
 
     setResultado(peso);
-
   }
 
   return (

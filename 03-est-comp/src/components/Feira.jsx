@@ -7,7 +7,7 @@ function Feira() {
     const quantidade = 15;
 
     if (quantidade < 12) {
-      setTotal(quantidade * 0.30);
+      setTotal(quantidade * 0.3);
     } else {
       setTotal(quantidade * 0.25);
     }
