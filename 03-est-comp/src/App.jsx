@@ -1,10 +1,13 @@
 import "./App.css";
 import Capitao from "./components/Capitao";
+import Denis from "./components/Denis";
 import Eleicao from "./components/Eleicao";
 import Feira from "./components/Feira";
 import Ganso from "./components/Ganso";
 import Jogo from "./components/Jogo";
+import JuninJaulas from "./components/JuninJaulas";
 import MaquinaFumaca from "./components/MaquinaFumaca";
+import NeryAcesso from "./components/NeryAcesso";
 import Palestra from "./components/Palestra";
 import Peso from "./components/Peso";
 import Pousada from "./components/Pousada";
@@ -22,6 +25,9 @@ function App() {
       <MaquinaFumaca />
       <Sarumano />
       <TheMentalist />
+      <Denis />
+      <NeryAcesso />
+      <JuninJaulas />
       <hr />
 
       <h2>#0027.sq05</h2>
