@@ -7,7 +7,7 @@ function JuninJaulas() {
         let visitantesNaArea = Number(prompt("Há visitantes na área?"));
         let horaAtual = Number(prompt("Qual é o horário de agora?"));
     
-        if (visitantesNaArea == 0 && horaAtual <= 8 || horaAtual >= 18){
+        if (visitantesNaArea == 0 && (horaAtual < 8 || horaAtual > 18)){
             setResultado("Liberação autorizada. Abrindo jaula.")
         }else{
             setResultado("Liberação negada. Área em uso ou fora do horário permitido.")
