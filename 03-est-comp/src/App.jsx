@@ -9,6 +9,7 @@ import Palestra from "./components/Palestra";
 import Peso from "./components/Peso";
 import Pousada from "./components/Pousada";
 import Sarumano from "./components/Sarumano";
+import TheMentalist from "./components/TheMentalist";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Capitao />
       <MaquinaFumaca />
       <Sarumano />
+      <TheMentalist />
       <hr />
 
       <h2>#0027.sq05</h2>
